@@ -69,7 +69,7 @@ EOF
 clone_repo(){
     echo "进行初始化。。。"
 	rm -rf IBM-cloudfoundry-continue
-    git clone https://github.com/rootmelo92118/IBM-cloudfoundry-continue
+    git clone https://github.com/gze4e/IBM-cloudfoundry-continue
     cd IBM-cloudfoundry-continue
     git submodule update --init --recursive
     cd cloudfoundry/fullaccesstointernet/
